@@ -1,10 +1,3 @@
-/*
-This is the script which can find cost spent on Zomato.com
-Step 1: Visit Zomato.com, 'Profile' and click on 'Order History'
-Step 2: Load all the orders by scrolling down and clicking on 'Load more' until it appears
-Step 3: Run below script in Console (CTRL + SHIFT + I or CTRL + ALT + I) by copying/pasting after '>>' and press ENTER
-*/
-
 costs = $('.cost b').get()
 cost_regex = /\d+.\d*/g
 total_cost = 0
